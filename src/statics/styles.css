@@ -1,0 +1,9 @@
+/*keeping all styles here only*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+
+}

@@ -15,7 +15,7 @@ function Highlight() {
                     className=" flex justify-evenly flex-col bg-black w-1/2 h-full rounded-tr-[1.5rem] rounded-br-[1.5rem] text-white p-10">
                     <div>
                     <span
-                        className="text-white border-white border-[1px] p-2 px-4 py-2 rounded-[20px]">quam quas quos
+                        className="text-white border-white border-[1px] px-3 py-[0.3rem] rounded-[20px]">quam quas quos
                     </span>
                     </div>
                     <h2 className="font-[500] text-[3rem] leading-[55px]">Lorem ipsum dolor sit amet </h2>
