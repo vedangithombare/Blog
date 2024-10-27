@@ -8,20 +8,17 @@ import RecentBlogs from "./RecentBlogs.jsx";
 //main file maybe home file
 function Main() {
     return (
-        // #edf0f5
-        <div className="bg-[#edf0f5]">
-            <div>
-                <NavBar/>
-                <div className="flex flex-row ">
-                    <div className="flex flex-col gap-10">
+        <>
+            <div className="flex w-full flex-1 h-full p-2 gap-8 flex-col  md:p-8 lg:flex-row">
+                <div className="flex flex-col flex-[3] gap-8">
                     <Highlight/>
                     <RecentBlogs/>
-                        </div>
+                </div>
+                <div className="flex flex-1 ">
                     <PopularPicks/>
                 </div>
             </div>
-        </div>
-
+        </>
     )
 }
 
