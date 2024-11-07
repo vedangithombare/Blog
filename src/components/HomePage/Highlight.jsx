@@ -1,5 +1,5 @@
 import React from 'react';
-import '../statics/styles.css'
+import '../../statics/styles.css'
 
 function Highlight() {
     return (

@@ -16,3 +16,6 @@ body, #root {
     flex-direction: column;
 }
 
+#logo{
+    font-size: 40px;
+}

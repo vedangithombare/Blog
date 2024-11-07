@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@media print {
+    body {
+        margin: 0 !important;
+    }
+}
+
+.main-container {
+    font-family: 'Lato';
+    display: flex;
+    /*border: 1px solid red;*/
+}
+
+.ck-content {
+    font-family: 'Lato';
+    line-height: 1.6;
+    word-break: break-word;
+	height: 100%;
+
+}
+
+/*.editor-container_classic-editor .editor-container__editor {*/
+/*    !*min-width: 795px;*!*/
+/*    !*max-width: 795px;*!*/
+/*    !*flex-grow: 1;*!*/
+/*    min-height: 100%;*/
+/*}*/
+.ck-editor__main{
+    height: 400px;
+    width: 800px;
+}
+.ck.ck-editor {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.ck.ck-editor__top .ck-sticky-panel .ck-sticky-panel__content {
+    border: none;
+    }
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+    border:0;
+}
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border: 0;
+    box-shadow: none;
+}
+.ck.ck-toolbar .ck.ck-toolbar__separator {
+     background: none;
+}
+.ck.ck-editor__main{
+}
+.ck>h1:first-child{
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.ck.ck-editor__editable_inline {
+    /*padding: 0 4em;*/
+    border: 1px solid black;
+}
+/*applying passing to top panel*/
+/*.ck .ck-editor__top.ck-reset_all{*/
+/*    padding: 0 4em;*/
+/*    border: 1px solid black;*/
+/*}*/
+
+@media (max-width: 768px) {
+
+    .ck-editor__main{
+        width:680px;
+    }
+}

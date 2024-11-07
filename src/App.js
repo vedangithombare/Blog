@@ -1,6 +1,8 @@
-import Main from "./components/Main";
-import  Login from "./components/Login";
-import Signup from "./components/SignUp";
+import Main from "./components/HomePage/Main";
+import  Login from "./components/Authentication/Login";
+import Signup from "./components/Authentication/SignUp";
+import Write from "./components/TextEditor/Write";
+import Tempauthpage from "./components/Authentication/Tempauthpage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
     // maybe keep this for routing different pages
@@ -10,6 +12,8 @@ function App() {
               <Route path="/" element={<Main/>}/>
               <Route path="/login" element={<Login/>}/>
               <Route path="/signup" element={<Signup/>}/>
+              <Route path="/write" element={<Write/>}/>
+              <Route path="/tempauth" element={<Tempauthpage/>}/>
           </Routes>
 
 
