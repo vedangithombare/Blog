@@ -15,7 +15,9 @@ function NavBar() {
                 </div>
                 <div className="flex flex-row justify-between items-center gap-4 ">
                     {/*border border-solid border-black*/}
-                    <button className=" flex items-center px-4 py-2 gap-1  rounded-xl hover:bg-[#ebecef] ">
+                    <button className=" flex items-center px-4 py-2 gap-1  rounded-xl hover:bg-[#ebecef]"
+                            onClick={()=>{navigate('/')}}
+                    >
                         <span className="material-symbols-outlined">home</span>
                         Home
                     </button>
@@ -27,8 +29,10 @@ function NavBar() {
                         <span className="material-symbols-outlined">edit</span>
                         Write
                     </button>
-                    <button className=" flex items-center px-5 py-2 gap-2 bg-emerald-400 rounded-3xl hover:bg-white">
-                        VedangiT
+                    <button className=" flex items-center px-5 py-2 gap-2 bg-emerald-400 rounded-3xl hover:bg-white"
+                            onClick={()=>navigate('/profile')}
+                    >
+                        Vedangi T.
                         <span className="material-symbols-outlined">account_circle</span>
                     </button>
                 </div>
