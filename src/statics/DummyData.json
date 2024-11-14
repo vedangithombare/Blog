@@ -1,0 +1,113 @@
+[
+  {
+    "id": "ID_1",
+    "title": "20s fun or hopelessness, A dilemma",
+    "published_date": "11/11/2024",
+    "tags": ["20's", "young adult", "hope", "fun"],
+    "cover_Img": "https://images.pexels.com/photos/12912188/pexels-photo-12912188.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content":
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus arcu non ante congue mattis. Morbi a lacus sit amet velit tincidunt imperdiet sed dignissim ligula. Praesent dictum lacinia felis ac pellentesque. Integer lacinia velit vel mollis eleifend. Integer felis ipsum, fermentum vitae risus ac, lobortis fringilla libero. ",
+    "likes": 15,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_2",
+    "title": "Fun facts about dogs that I bet you don't know",
+    "published_date": "11/11/2024",
+    "tags": ["dogs", "fun", "cute"],
+    "cover_Img": "https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Morbi non eros ornare, tristique dolor quis, mattis massa. Etiam ac accumsan tortor, id imperdiet libero. Etiam a pharetra tortor. Nullam vel sapien imperdiet, vehicula justo ac, commodo tellus. Nunc feugiat viverra purus nec feugiat. Cras eget consequat tortor, non ultrices odio.",
+    "likes": 18,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_3",
+    "title": "Job search: a search worse than hell",
+    "published_date": "11/11/2024",
+    "tags": ["fresher", "job", "job search"],
+    "cover_Img": "https://images.pexels.com/photos/7278594/pexels-photo-7278594.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Proin nec quam vel ex varius mollis. Fusce purus metus, pretium eget mi fermentum, blandit tristique massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent sit amet volutpat nulla. Ut ullamcorper bibendum finibus.",
+    "likes": 15,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_4",
+    "title": "ReactJS: What are Function Components?",
+    "published_date": "11/11/2024",
+    "tags": ["reactJs", "Frontend"],
+    "cover_Img": "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Morbi ut augue id nunc rhoncus pulvinar. Curabitur lacus orci, bibendum quis molestie id, maximus ut mi. Morbi est erat, rutrum vitae eros vel, varius commodo sem. Maecenas eget molestie nulla. Integer accumsan justo nunc, ac pretium odio varius at. Donec sed velit at mauris vehicula aliquam.",
+    "likes": 15,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_5",
+    "title": "The Future of Remote Work: Trends and Predictions",
+    "published_date": "11/11/2024",
+    "tags": ["RemoteWork", "FutureOfWork", "WorkplaceTrends"],
+    "cover_Img": "https://images.pexels.com/photos/2422286/pexels-photo-2422286.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "In pharetra malesuada justo sodales convallis. Mauris sodales leo odio, vitae cursus lorem porttitor et. Praesent vulputate et lectus nec efficitur. Curabitur in ullamcorper mi, quis suscipit ante. Nunc eget augue diam. Sed venenatis porta lacus at pharetra. Fusce faucibus lorem quis enim ornare vulputate. Donec quis felis elit.",
+    "likes": 15,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_6",
+    "title": "Sustainable Fashion: How Consumers Are Changing the Industry",
+    "published_date": "11/11/2024",
+    "tags": ["SustainableFashion", "EcoFriendly", "ConsumerTrends"],
+    "cover_Img": "https://images.pexels.com/photos/15625985/pexels-photo-15625985/free-photo-of-children-clothes-on-hangers-in-shop.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Praesent interdum pulvinar neque, quis accumsan lectus tempor a. Nullam laoreet mauris magna, sed volutpat lectus accumsan et. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;",
+    "likes": 15,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_7",
+    "title": "Mastering Personal Finance in Your 20s: Essential Tips",
+    "published_date": "11/11/2024",
+    "tags": ["PersonalFinance", "MoneyManagement", "YoungAdults", "FinancialLiteracy"],
+    "cover_Img": "https://images.pexels.com/photos/6771607/pexels-photo-6771607.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Nunc eget lacinia nisl, in luctus lacus. Fusce at nibh quis mi interdum vestibulum ac nec odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur velit neque, consectetur non felis at, tempor pharetra arcu. Vivamus in iaculis magna. Nullam id aliquam erat. Donec imperdiet lorem in lectus congue laoreet.",
+    "likes": 20,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_8",
+    "title": "The Science of Better Sleep: Tips for a Healthier Rest",
+    "published_date": "11/11/2024",
+    "tags": ["BetterSleep", "Wellness", "HealthyHabits", "SleepScience"],
+    "cover_Img": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Etiam condimentum tincidunt orci ut convallis. Proin egestas euismod neque, ultricies semper diam hendrerit vel. Etiam quis ornare lectus, et pharetra arcu. Pellentesque consequat vehicula odio nec tempor. Quisque tincidunt sem ipsum, eget vulputate turpis tempor nec. Sed eu mattis magna.",
+    "likes": 18,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_9",
+    "title": "Top 5 Eco-Friendly Tech Gadgets for Sustainable Living",
+    "published_date": "11/11/2024",
+    "tags": ["EcoFriendly", "SustainableTech", "Technology"],
+    "cover_Img": "https://images.pexels.com/photos/8566423/pexels-photo-8566423.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Praesent commodo justo diam, at iaculis dui eleifend ac. Phasellus sit amet neque efficitur, mattis turpis quis, facilisis leo. Nam blandit justo quis ipsum consectetur, aliquam auctor eros rhoncus. ",
+    "likes": 35,
+    "edited_date": null,
+    "delete": false
+  },
+  {
+    "id": "ID_10",
+    "title": "Creating a Standout LinkedIn Profile in 2024",
+    "published_date": "11/11/2024",
+    "tags": ["LinkedInTips", "CareerGrowth", "JobSearch"],
+    "cover_Img": "https://images.pexels.com/photos/16564260/pexels-photo-16564260/free-photo-of-smartphone-with-linkedin-app.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "content": "Fusce porttitor volutpat nibh vitae venenatis. Vivamus viverra eros eu odio laoreet, id iaculis diam fringilla. Donec fringilla, velit et convallis suscipit, erat arcu blandit nibh, eu iaculis erat quam ut turpis. Proin ac arcu vel arcu accumsan faucibus in non nibh.",
+    "likes": 25,
+    "edited_date": null,
+    "delete": false
+  }
+]

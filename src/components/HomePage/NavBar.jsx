@@ -1,40 +1,47 @@
 import React from 'react';
 import '../../statics/styles.css'
-import {useNavigate} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 
 function NavBar() {
     const navigate = useNavigate();
 
     return (
-        <div className="w-full">
+        <div className="w-full flex justify-center">
             <div
-                className="flex flex-1 px-4 justify-between shadow shadow-black-500/70  mb-6 items-center h-24 p-8 ">
-                <div className="flex gap-1 items-center">
-                    <span className="material-symbols-outlined" id="logo">keyboard_command_key</span>
-                    <span className="text-3xl font-extrabold">BLGO</span>
-                </div>
-                <div className="flex flex-row justify-between items-center gap-4 ">
+                className="flex flex-1 h-20  justify-center gap-10 items-center shadow shadow-black-500/70  md:justify-between md:p-6 pb-4 md:px-12 ">
+                <Link to='/'>
+                    <div className=" flex  items-center md:gap-1">
+                        <span className="material-symbols-outlined" id="logo">keyboard_command_key</span>
+                        <span className=" hidden  md:contents md:text-2xl md:font-extrabold">BLGO</span>
+                    </div>
+                </Link>
+
+                <div className="flex flex-row gap-1 md:justify-between md:items-center md:gap-4">
+
                     {/*border border-solid border-black*/}
-                    <button className=" flex items-center px-4 py-2 gap-1  rounded-xl hover:bg-[#ebecef]"
-                            onClick={()=>{navigate('/')}}
-                    >
+                    <button className=" flex items-center rounded-xl px-2 hover:bg-[#ebecef] md:px-4 md:py-2 md:gap-1"
+                            onClick={() => {
+                                navigate('/')
+                            }}>
                         <span className="material-symbols-outlined">home</span>
                         Home
                     </button>
-                    <button className=" flex items-center px-4 py-2 gap-1  rounded-xl hover:bg-[#ebecef]"
+
+                    <button className=" flex items-center rounded-xl px-2 hover:bg-[#ebecef] md:px-4 md:py-2 md:gap-1"
                             onClick={() => {
                                 navigate('/write')
-                            }}
-                    >
+                            }}>
                         <span className="material-symbols-outlined">edit</span>
                         Write
                     </button>
-                    <button className=" flex items-center px-5 py-2 gap-2 bg-emerald-400 rounded-3xl hover:bg-white"
-                            onClick={()=>navigate('/profile')}
-                    >
+
+                    <button
+                        className=" flex items-center px-3 py-2  bg-emerald-400 rounded-3xl hover:bg-white md:px-5 md:py-2 md:gap-2 "
+                        onClick={() => navigate('/profile')}>
                         Vedangi T.
                         <span className="material-symbols-outlined">account_circle</span>
                     </button>
+
                 </div>
             </div>
         </div>
