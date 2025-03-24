@@ -1,3 +1,18 @@
+# BLGO - A Medium-Inspired Blog Platform
+BLGO is a feature-rich blog platform inspired by Medium, designed to let users create, share, and engage with blog posts. Users can create accounts, upload their stories, and interact with others through reactions. The platform provides a seamless and responsive user experience with a modern UI.
+
+## Tech Stack
+### **Frontend:**
+- ReactJS
+- HTML, CSS
+- TailwindCSS
+- CKEditor
+
+### **Backend:**
+- Java Spring Boot
+- PostgreSQL
+
+
 ![Alt text](https://github.com/vedangithombare/Blog/blob/f849dd680163cf720c7ec554115a1069c2436cca/Blgo%20home%20page.png)
 Blgo home page 
 
